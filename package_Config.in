@@ -2391,8 +2391,6 @@ menu "Miscellaneous"
 	source "package/xmrig/Config.in"
 	source "package/xutil_util-macros/Config.in"
 	source "package/z3/Config.in"
-	source "package/helloworld/Config.in"
-	source "package/mycat/Config.in"
 	source "package/ultrasonik/Config.in"
 endmenu
 

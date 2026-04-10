@@ -28,7 +28,7 @@ echo -n "Press enter to continue"
 
 read
 
-cp ./ultrasonik $install_path/buildroot/package
+cp -r ./ultrasonik $install_path/buildroot/package
 cp ./package_Config.in $install_path/buildroot/package/Config.in
 cp ./see_defconfig $install_path/buildroot/configs
 mkdir -p $install_path/buildroot/board/insa/see/

@@ -13,6 +13,8 @@ Made for an Embedded Operating Systems course project, use at your own risk.
 An install script does all the job for you, use it using ```bash ./install.sh```.
 It will copy the configurations to a fresh download of [buildroot](https://github.com/buildroot/buildroot/tree/2025.02.x) and build the linux image.
 
+You can enable and disable the driver in ```make menuconfig``` the menuconfig entry is in the ```Target Packages/Miscellaneous``` submenu.
+
 ### License
 #TODO
 
